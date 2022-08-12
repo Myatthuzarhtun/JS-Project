@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 100%;
+            margin: 10px;
+            flex-direction: column;
+        }
+
+        .stopwatch {
+            font-size: 100px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stopwatch">00:00:00</div>
+
+        <div>
+            <button class="btn btn-secondary start" type="button">Start</button>
+            <button class="btn btn-secondary pause" type="button">Pause</button>
+            <button class="btn btn-secondary continue" type="button">Continue</button>
+            <button class="btn btn-secondary restart" type="button">Restart</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
